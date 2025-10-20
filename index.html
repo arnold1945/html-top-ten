@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title> My Top Ten Tags & Styles</title>
-  </head>
-  <body>
-    <header title="I'm a Header!">
-      <h1 title="I'm an H1">My Top Ten</h1>
-      <img title="I'm an img" src="http://www.incrediblethings.com/wp-content/uploads/2012/07/cat-votes-for-himself.jpg">
-    </header>
-    <section class="section" title="I'm The HTML Section">
-      <h2 title="I'm an H2">HTML</h2>
-      <p title="I'm a p">Here are a few HTML things I like:</p>
-      <!-- Copy this Definition Div for each HTML thing you choose -->
-      <div class="definition" title="I'm a Definition Div!">
-        <h3>TERM TITLE</h3>
-        <p>Describe this term, and make an example of how its used:</p>
-        <!-- EXAMPLE CODE GOES HERE -->
-      <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-      <a href="#">resource link</a>
-    </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> My Top Ten Tags & Styles</title>
+</head>
+
+<body>
+  <header title="I'm a Header!">
+    <h1 title="I'm an H1">My Top Ten</h1>
+    <img title="I'm an img" src="http://www.incrediblethings.com/wp-content/uploads/2012/07/cat-votes-for-himself.jpg">
+  </header>
+  <form action="/subscribe" method="post">
+    <fieldset>
+      <legend>1. inputs and stuff</legend>
+      <input type="email" name="email">
+      <button>Ok</button>
+    </fieldset>
+  </form>
+
+  <fieldset>
+    <legend>2. embedding videos</legend>
+
+    <video src="https://www.youtube.com/watch?v=hrFdHVqgjYQ" controls></video>
+  </fieldset>
+  <form>
+    <fieldset>
+      <legend>3. making a to do list</legend>
+      <input type="checkbox" id="check" value="checkbox1">
+      <label for="check"> check this</label>
+      <br>
+      <input type="checkbox" id="check2">
+      <label for="check2"> no, check this!</label>
+    </fieldset>
+    <fieldset>
+      <legend>4. storing and organizing paragraphs</legend>
+      <h2>some random gibberish</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores nihil minima, nobis perferendis expedita
+        itaque praesentium porro eos sequi laborum vitae aliquam. Deserunt totam illo alias voluptatibus sapiente,
+        aperiam ad.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. datalists</legend>
+      <label>South American countries</label><br>
+      <input list="countries" placeholder="Type a country">
+
+      <datalist id="countries">
+        <option value="Argentina">
+        <option value="Bolivia">
+        <option value="Brazil">
+        <option value="Chile">
+        <option value="Colombia">
+        <option value="Ecuador">
+        <option value="Guyana">
+        <option value="Paraguay">
+        <option value="Peru">
+        <option value="Suriname">
+        <option value="Uruguay">
+        <option value="Venezuela">
+      </datalist>
+
+    </fieldset>
+
+
+
+  </form>
+
+
+
+
+
+
+
+
+
   </section>
+
+
   <section class="section" title="I'm The CSS Section">
     <h2 title="I'm an H2">CSS Things</h2>
     <p title="I'm a p">Here are a few CSS things I like:</p>
@@ -31,12 +88,13 @@
       <h3>TERM TITLE</h3>
       <p>Describe this term, and make an example of how its used:</p>
       <!-- EXAMPLE CODE GOES HERE -->
-    <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-    <a href="#">resource link</a>
-  </div>
-</section>
-<footer>
-  <p>Made with gusto by <a href="#">YOUR NAME HERE</a></p>
-</footer>
+      <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
+      <a href="#">resource link</a>
+    </div>
+  </section>
+  <footer>
+    <p>Made with gusto by <a href="#">YOUR NAME HERE</a></p>
+  </footer>
 </body>
+
 </html>

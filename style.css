@@ -1,1 +1,16 @@
 /* to show your CSS things, you'll likely need to use this file */
+
+
+body {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExazY3NHNnanl0c2U0NnRzcWt5aGJkdmw5eTgxOG0wNWM5bDNlbDZ2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/b0HYKHINjL32qEsoJt/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+fieldset {
+    border-color: pink;
+    border-width: 5px;
+}
+
